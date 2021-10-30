@@ -1,0 +1,193 @@
+0000.018 () Opened log file at time: Sat, 19 Jun 2021 22:51:38 +0000 on http://localhost/jobportal
+0000.020 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.56 WP: 5.7.2 PHP: 8.0.6 (apache2handler, Windows NT DESKTOP-2UTR5CG 10.0 build 19042 (Windows 10) AMD64) MySQL: 10.4.19-MariaDB WPLANG: en_US Server: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 32.4M | 8M) multisite: N openssl: OpenSSL 1.1.1k  25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.020 () Free space on disk containing Updraft's temporary directory: 148134.2 MB
+0000.104 () Restore setup, now closing connection and starting restore over AJAX.
+0000.016 () Opened log file at time: Sat, 19 Jun 2021 22:51:39 +0000 on http://localhost/jobportal
+0000.017 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.56 WP: 5.7.2 PHP: 8.0.6 (apache2handler, Windows NT DESKTOP-2UTR5CG 10.0 build 19042 (Windows 10) AMD64) MySQL: 10.4.19-MariaDB WPLANG: en_US Server: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 26.6M | 2M) multisite: N openssl: OpenSSL 1.1.1k  25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.018 () Free space on disk containing Updraft's temporary directory: 148134.1 MB
+0000.097 () Ensuring WP_Filesystem is setup for a restore
+0000.111 () WP_Filesystem is setup and ready for a restore
+0000.134 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["fjb_options","fjb_users","fjb_usermeta","fjb_actionscheduler_actions","fjb_actionscheduler_claims","fjb_actionscheduler_groups","fjb_actionscheduler_logs","fjb_commentmeta","fjb_comments","fjb_links","fjb_postmeta","fjb_posts","fjb_term_relationships","fjb_term_taxonomy","fjb_termmeta","fjb_terms","fjb_aiowps_events","fjb_aiowps_failed_logins","fjb_aiowps_global_meta","fjb_aiowps_login_activity","fjb_aiowps_login_lockdown","fjb_aiowps_permanent_block","fjb_smush_dir_images","fjb_wpfm_backup","fjb_wpforms_tasks_meta","fjb_wpmailsmtp_tasks_meta","fjb_wsal_metadata","fjb_wsal_occurrences","fjb_yoast_indexable","fjb_yoast_indexable_hierarchy","fjb_yoast_migrations","fjb_yoast_primary_term","fjb_yoast_seo_links"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.148 () PHP event: code E_WARNING: mkdir(): File exists (line 545, C:\xampp\htdocs\jobportal\wp-admin\includes\class-wp-filesystem-direct.php)
+0000.213 () Entity: db
+0000.213 () restore_backup(backup_file=backup_2021-06-19-2213_FlexJobs_2a4ab3e66c3d-db.gz, type=db, info=a:0:{}, last_one=)
+0000.216 () Unpacking backup... (backup_2021-06-19-2213_FlexJobs_2a4ab3e66c3d-db.gz, 0.7 Mb)
+0000.217 () PHP event: code E_WARNING: mkdir(): File exists (line 545, C:\xampp\htdocs\jobportal\wp-admin\includes\class-wp-filesystem-direct.php)
+0000.226 () Database successfully unpacked
+0000.230 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.230 () Using direct MySQL access; value of use_mysqli is: 1
+0000.232 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0000.373 () Max packet size: 32 MB
+0000.373 () Entering maintenance mode
+0000.373 () Enabling Maintenance mode&#8230;
+0000.437 () Backup created by: 1.16.56
+0000.437 () Backup of: http://cnet-web.consulnet.net/FlexJobs
+0000.491 () Content URL: http://cnet-web.consulnet.net/FlexJobs/wp-content
+0000.491 () Uploads URL: http://cnet-web.consulnet.net/FlexJobs/wp-content/uploads
+0000.492 () Old table prefix: fjb_
+0000.492 () Site information: multisite=0
+0000.492 () Site information: sql_mode=NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.498 () New table prefix: r0_
+0000.507 () Processing table (InnoDB): fjb_options - will restore as: r0_options
+0000.793 () Atomic restore: dropping original table (wp_options)
+0000.811 () Atomic restore: renaming new table (r0_options) to final table name (wp_options)
+0000.828 () Restoring prior UD configuration (table: wp_options; keys: 98)
+0001.782 () Table prefix has changed: changing options table field(s) accordingly (options)
+0001.785 () Options table fields changed OK
+0001.790 () Elegant themes theme builder plugin data detected: resetting temporary folder
+0001.808 () Processing table (InnoDB): fjb_users - will restore as: r0_users
+0001.863 () Atomic restore: dropping original table (wp_users)
+0001.879 () Atomic restore: renaming new table (r0_users) to final table name (wp_users)
+0001.898 () Processing table (InnoDB): fjb_usermeta - will restore as: r0_usermeta
+0001.941 () Atomic restore: dropping original table (wp_usermeta)
+0001.958 () Atomic restore: renaming new table (r0_usermeta) to final table name (wp_usermeta)
+0001.972 () Table prefix has changed: changing usermeta table field(s) accordingly
+0001.981 () Usermeta table fields changed OK
+0001.982 () Processing table (InnoDB): fjb_actionscheduler_actions - will restore as: r0_actionscheduler_actions
+0002.111 () Atomic restore: dropping original table (wp_actionscheduler_actions)
+0002.112 () Atomic restore: renaming new table (r0_actionscheduler_actions) to final table name (wp_actionscheduler_actions)
+0002.138 () Processing table (InnoDB): fjb_actionscheduler_claims - will restore as: r0_actionscheduler_claims
+0002.177 () Atomic restore: dropping original table (wp_actionscheduler_claims)
+0002.178 () Atomic restore: renaming new table (r0_actionscheduler_claims) to final table name (wp_actionscheduler_claims)
+0002.203 () Processing table (InnoDB): fjb_actionscheduler_groups - will restore as: r0_actionscheduler_groups
+0002.252 () Atomic restore: dropping original table (wp_actionscheduler_groups)
+0002.253 () Atomic restore: renaming new table (r0_actionscheduler_groups) to final table name (wp_actionscheduler_groups)
+0002.275 () Processing table (InnoDB): fjb_actionscheduler_logs - will restore as: r0_actionscheduler_logs
+0002.339 () Atomic restore: dropping original table (wp_actionscheduler_logs)
+0002.341 () Atomic restore: renaming new table (r0_actionscheduler_logs) to final table name (wp_actionscheduler_logs)
+0002.365 () Processing table (InnoDB): fjb_commentmeta - will restore as: r0_commentmeta
+0002.409 () Atomic restore: dropping original table (wp_commentmeta)
+0002.429 () Atomic restore: renaming new table (r0_commentmeta) to final table name (wp_commentmeta)
+0002.459 () Processing table (InnoDB): fjb_comments - will restore as: r0_comments
+0002.523 () Atomic restore: dropping original table (wp_comments)
+0002.544 () Atomic restore: renaming new table (r0_comments) to final table name (wp_comments)
+0002.566 () Processing table (InnoDB): fjb_links - will restore as: r0_links
+0002.609 () Atomic restore: dropping original table (wp_links)
+0002.629 () Atomic restore: renaming new table (r0_links) to final table name (wp_links)
+0002.661 () Processing table (InnoDB): fjb_postmeta - will restore as: r0_postmeta
+0003.108 () Atomic restore: dropping original table (wp_postmeta)
+0003.186 () Atomic restore: renaming new table (r0_postmeta) to final table name (wp_postmeta)
+0003.251 () Processing table (InnoDB): fjb_posts - will restore as: r0_posts
+0004.049 () Database queries processed: 50 in 3.81 seconds
+0004.971 () Atomic restore: dropping original table (wp_posts)
+0005.009 () Atomic restore: renaming new table (r0_posts) to final table name (wp_posts)
+0005.038 () Processing table (InnoDB): fjb_term_relationships - will restore as: r0_term_relationships
+0005.102 () Atomic restore: dropping original table (wp_term_relationships)
+0005.125 () Atomic restore: renaming new table (r0_term_relationships) to final table name (wp_term_relationships)
+0005.150 () Processing table (InnoDB): fjb_term_taxonomy - will restore as: r0_term_taxonomy
+0005.211 () Atomic restore: dropping original table (wp_term_taxonomy)
+0005.232 () Atomic restore: renaming new table (r0_term_taxonomy) to final table name (wp_term_taxonomy)
+0005.255 () Processing table (InnoDB): fjb_termmeta - will restore as: r0_termmeta
+0005.307 () Atomic restore: dropping original table (wp_termmeta)
+0005.327 () Atomic restore: renaming new table (r0_termmeta) to final table name (wp_termmeta)
+0005.354 () Processing table (InnoDB): fjb_terms - will restore as: r0_terms
+0005.408 () Atomic restore: dropping original table (wp_terms)
+0005.426 () Atomic restore: renaming new table (r0_terms) to final table name (wp_terms)
+0005.454 () Processing table (InnoDB): fjb_aiowps_events - will restore as: r0_aiowps_events
+0005.491 () Atomic restore: dropping original table (wp_aiowps_events)
+0005.492 () Atomic restore: renaming new table (r0_aiowps_events) to final table name (wp_aiowps_events)
+0005.517 () Processing table (InnoDB): fjb_aiowps_failed_logins - will restore as: r0_aiowps_failed_logins
+0005.556 () Atomic restore: dropping original table (wp_aiowps_failed_logins)
+0005.558 () Atomic restore: renaming new table (r0_aiowps_failed_logins) to final table name (wp_aiowps_failed_logins)
+0005.584 () Processing table (InnoDB): fjb_aiowps_global_meta - will restore as: r0_aiowps_global_meta
+0005.624 () Atomic restore: dropping original table (wp_aiowps_global_meta)
+0005.625 () Atomic restore: renaming new table (r0_aiowps_global_meta) to final table name (wp_aiowps_global_meta)
+0005.650 () Processing table (InnoDB): fjb_aiowps_login_activity - will restore as: r0_aiowps_login_activity
+0005.687 () Atomic restore: dropping original table (wp_aiowps_login_activity)
+0005.688 () Atomic restore: renaming new table (r0_aiowps_login_activity) to final table name (wp_aiowps_login_activity)
+0005.711 () Processing table (InnoDB): fjb_aiowps_login_lockdown - will restore as: r0_aiowps_login_lockdown
+0005.749 () Atomic restore: dropping original table (wp_aiowps_login_lockdown)
+0005.750 () Atomic restore: renaming new table (r0_aiowps_login_lockdown) to final table name (wp_aiowps_login_lockdown)
+0005.773 () Processing table (InnoDB): fjb_aiowps_permanent_block - will restore as: r0_aiowps_permanent_block
+0005.805 () Atomic restore: dropping original table (wp_aiowps_permanent_block)
+0005.807 () Atomic restore: renaming new table (r0_aiowps_permanent_block) to final table name (wp_aiowps_permanent_block)
+0005.829 () Processing table (InnoDB): fjb_smush_dir_images - will restore as: r0_smush_dir_images
+0005.880 () Atomic restore: dropping original table (wp_smush_dir_images)
+0005.882 () Atomic restore: renaming new table (r0_smush_dir_images) to final table name (wp_smush_dir_images)
+0006.001 () Processing table (InnoDB): fjb_wpfm_backup - will restore as: r0_wpfm_backup
+0006.090 () Atomic restore: dropping original table (wp_wpfm_backup)
+0006.092 () Atomic restore: renaming new table (r0_wpfm_backup) to final table name (wp_wpfm_backup)
+0006.119 () Processing table (InnoDB): fjb_wpforms_tasks_meta - will restore as: r0_wpforms_tasks_meta
+0006.172 () Atomic restore: dropping original table (wp_wpforms_tasks_meta)
+0006.174 () Atomic restore: renaming new table (r0_wpforms_tasks_meta) to final table name (wp_wpforms_tasks_meta)
+0006.199 () Processing table (InnoDB): fjb_wpmailsmtp_tasks_meta - will restore as: r0_wpmailsmtp_tasks_meta
+0006.255 () Atomic restore: dropping original table (wp_wpmailsmtp_tasks_meta)
+0006.256 () Atomic restore: renaming new table (r0_wpmailsmtp_tasks_meta) to final table name (wp_wpmailsmtp_tasks_meta)
+0006.277 () Processing table (InnoDB): fjb_wsal_metadata - will restore as: r0_wsal_metadata
+0006.532 () Atomic restore: dropping original table (wp_wsal_metadata)
+0006.534 () Atomic restore: renaming new table (r0_wsal_metadata) to final table name (wp_wsal_metadata)
+0006.556 () Processing table (InnoDB): fjb_wsal_occurrences - will restore as: r0_wsal_occurrences
+0006.617 () Atomic restore: dropping original table (wp_wsal_occurrences)
+0006.618 () Atomic restore: renaming new table (r0_wsal_occurrences) to final table name (wp_wsal_occurrences)
+0006.637 () Processing table (InnoDB): fjb_yoast_indexable - will restore as: r0_yoast_indexable
+0006.753 () Database queries processed: 100 in 6.51 seconds
+0006.764 () Atomic restore: dropping original table (wp_yoast_indexable)
+0006.765 () Atomic restore: renaming new table (r0_yoast_indexable) to final table name (wp_yoast_indexable)
+0006.787 () Processing table (InnoDB): fjb_yoast_indexable_hierarchy - will restore as: r0_yoast_indexable_hierarchy
+0006.846 () Atomic restore: dropping original table (wp_yoast_indexable_hierarchy)
+0006.847 () Atomic restore: renaming new table (r0_yoast_indexable_hierarchy) to final table name (wp_yoast_indexable_hierarchy)
+0006.866 () Processing table (InnoDB): fjb_yoast_migrations - will restore as: r0_yoast_migrations
+0006.918 () Atomic restore: dropping original table (wp_yoast_migrations)
+0006.919 () Atomic restore: renaming new table (r0_yoast_migrations) to final table name (wp_yoast_migrations)
+0006.936 () Processing table (InnoDB): fjb_yoast_primary_term - will restore as: r0_yoast_primary_term
+0006.977 () Atomic restore: dropping original table (wp_yoast_primary_term)
+0006.978 () Atomic restore: renaming new table (r0_yoast_primary_term) to final table name (wp_yoast_primary_term)
+0007.003 () Processing table (InnoDB): fjb_yoast_seo_links - will restore as: r0_yoast_seo_links
+0007.058 () UpdraftPlus Vault: this site has not been connected - check your settings
+0011.139 () Unlocking database and leaving maintenance mode
+0011.139 () Disabling Maintenance mode&#8230;
+0011.141 () Atomic restore: dropping original table (wp_yoast_seo_links)
+0011.143 () Atomic restore: renaming new table (r0_yoast_seo_links) to final table name (wp_yoast_seo_links)
+0011.179 () Finished: lines processed: 114 in 10.94 seconds
+0011.181 () Cleaning up rubbish...
+0011.278 () Entity: plugins
+0011.278 () restore_backup(backup_file=backup_2021-06-19-2213_FlexJobs_2a4ab3e66c3d-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:44:"C:\xampp\htdocs\jobportal/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0011.280 () Unpacking backup... (backup_2021-06-19-2213_FlexJobs_2a4ab3e66c3d-plugins.zip, 34.5 MB)
+0011.289 () Unzipping backup_2021-06-19-2213_FlexJobs_2a4ab3e66c3d-plugins.zip to C:/xampp/htdocs/jobportal/wp-content/upgrade/1c30caea/ using UpdraftPlus_ZipArchive, starting index 0
+0013.226 () Unzip progress: 1243 out of 8279 files (1 KB, plugins/wpforms-lite/templates/integrations/elementor/no-forms.php)
+0014.971 () Unzip progress: 2244 out of 8279 files (17.3 MB, plugins/wp-file-manager/lib/js/commands/sort.js)
+0017.038 () Unzip progress: 3245 out of 8279 files (32.1 MB, plugins/wp-smushit/_src/js/shared-ui.js)
+0019.007 () Unzip progress: 4246 out of 8279 files (44.8 MB, plugins/wp-mail-smtp/vendor_prefixed/monolog/monolog/src/Monolog/Formatter/JsonFormatter.php)
+0020.954 () Unzip progress: 5247 out of 8279 files (53.7 MB, plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/ClosureCommand.php)
+0022.823 () Unzip progress: 6248 out of 8279 files (74.1 MB, plugins/wp-security-audit-log/third-party/freemius/wordpress-sdk/templates/plugin-info/features.php)
+0024.781 () Unzip progress: 7249 out of 8279 files (88.2 MB, plugins/wordpress-seo/src/schema-templates/step.schema.php)
+0026.691 () Unzip progress: 8250 out of 8279 files (98 MB, plugins/contact-form-7/includes/special-mail-tags.php)
+0026.753 () Unzip progress: 8279 out of 8279 files (98.1 MB, plugins/contact-form-7/languages/readme.txt)
+0026.781 () Moving old data: filesystem method / updraft_dir is potentially possible
+0026.782 () Moving old data: can potentially use wp_filesystem method / -old
+0026.782 () Moving old data out of the way...
+0027.534 () Top-level entities being moved: akismet, hello.php, index.php, updraftplus
+0027.551 () Moving unpacked backup into place...
+0030.938 () Top-level entities being moved: advanced-custom-fields, akismet, all-in-one-wp-security-and-firewall, autoptimize, contact-form-7, hello.php, index.php, joboard, updraftplus, wordpress-seo, wp-asset-clean-up, wp-file-manager, wp-mail-smtp, wp-security-audit-log, wp-smushit, wpforms-lite
+0031.018 () Cleaning up rubbish...
+0031.044 () Entity: themes
+0031.044 () restore_backup(backup_file=backup_2021-06-19-2213_FlexJobs_2a4ab3e66c3d-themes.zip, type=themes, info=a:2:{s:4:"path";s:43:"C:\xampp\htdocs\jobportal/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0031.046 () Unpacking backup... (backup_2021-06-19-2213_FlexJobs_2a4ab3e66c3d-themes.zip, 13.8 MB)
+0031.048 () Unzipping backup_2021-06-19-2213_FlexJobs_2a4ab3e66c3d-themes.zip to C:/xampp/htdocs/jobportal/wp-content/upgrade/ec4be98b/ using UpdraftPlus_ZipArchive, starting index 0
+0032.911 () Unzip progress: 1002 out of 1511 files (15 MB, themes/Divi/includes/builder/frontend-builder/assets/vendors/plugins/help/img/logo.png)
+0034.296 () Unzip progress: 1511 out of 1511 files (42.1 MB, themes/Divichild/archive-joboard.php)
+0034.339 () Moving old data: filesystem method / updraft_dir is potentially possible
+0034.341 () Moving old data: can potentially use wp_filesystem method / -old
+0034.341 () Moving old data out of the way...
+0034.603 () Top-level entities being moved: index.php, twentynineteen, twentytwenty, twentytwentyone
+0034.613 () Moving unpacked backup into place...
+0035.208 () Top-level entities being moved: Divi, Divichild, index.php, twentynineteen, twentytwenty, twentytwentyone
+0035.227 () Cleaning up rubbish...
+0035.253 () Entity: uploads
+0035.253 () restore_backup(backup_file=backup_2021-06-19-2213_FlexJobs_2a4ab3e66c3d-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:44:"C:\xampp\htdocs\jobportal/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0035.254 () Unpacking backup... (backup_2021-06-19-2213_FlexJobs_2a4ab3e66c3d-uploads.zip, 13.6 MB)
+0035.256 () Unzipping backup_2021-06-19-2213_FlexJobs_2a4ab3e66c3d-uploads.zip to C:/xampp/htdocs/jobportal/wp-content/upgrade/9681c0d4/ using UpdraftPlus_ZipArchive, starting index 0
+0035.971 () Unzip progress: 391 out of 391 files (13.6 MB, uploads/wp-file-manager-pro/fm_backup/index.html)
+0035.980 () Moving old data: filesystem method / updraft_dir is potentially possible
+0035.981 () Moving old data: can potentially use wp_filesystem method / -old
+0035.981 () Moving old data out of the way...
+0035.990 () Moving unpacked backup into place...
+0036.130 () Cleaning up rubbish...
+0036.142 () Entity: others
+0036.143 () restore_backup(backup_file=backup_2021-06-19-2213_FlexJobs_2a4ab3e66c3d-others.zip, type=others, info=a:2:{s:4:"path";s:36:"C:\xampp\htdocs\jobportal/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0036.144 () Unpacking backup... (backup_2021-06-19-2213_FlexJobs_2a4ab3e66c3d-others.zip, 2 MB)
+0036.146 () Unzipping backup_2021-06-19-2213_FlexJobs_2a4ab3e66c3d-others.zip to C:/xampp/htdocs/jobportal/wp-content/upgrade/c70fffcb/ using UpdraftPlus_ZipArchive, starting index 0
+0036.254 () Unzip progress: 16 out of 16 files (10.1 MB, et-cache/image_srcset_sizes.data)
+0036.271 () Cleaning up rubbish...
+0036.464 () Restore successful!
+0036.464 () Restore successful

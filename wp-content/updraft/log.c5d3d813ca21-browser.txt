@@ -1,0 +1,156 @@
+0000.136 (R) [notice] Looking for db archive: file name: backup_2021-06-19-2213_FlexJobs_2a4ab3e66c3d-db.gz
+0000.138 (R) [notice] Archive is expected to be size: 715.7 KB: OK
+0000.151 (R) [notice] Looking for plugins archive: file name: backup_2021-06-19-2213_FlexJobs_2a4ab3e66c3d-plugins.zip
+0000.154 (R) [notice] Archive is expected to be size: 35284.7 KB: OK
+0000.163 (R) [notice] Looking for themes archive: file name: backup_2021-06-19-2213_FlexJobs_2a4ab3e66c3d-themes.zip
+0000.167 (R) [notice] Archive is expected to be size: 14170.5 KB: OK
+0000.178 (R) [notice] Looking for uploads archive: file name: backup_2021-06-19-2213_FlexJobs_2a4ab3e66c3d-uploads.zip
+0000.184 (R) [notice] Archive is expected to be size: 13900.2 KB: OK
+0000.194 (R) [notice] Looking for others archive: file name: backup_2021-06-19-2213_FlexJobs_2a4ab3e66c3d-others.zip
+0000.197 (R) [notice] Archive is expected to be size: 2072.2 KB: OK
+0000.216 (R) [notice] Unpacking backup... (backup_2021-06-19-2213_FlexJobs_2a4ab3e66c3d-db.gz, 0.7 Mb)
+0000.230 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.373 (R) [notice] Enabling Maintenance mode&#8230;
+0000.436 (R) [notice] Backup created by: 1.16.56
+0000.438 (R) [notice] Backup of: http://cnet-web.consulnet.net/FlexJobs
+0000.490 (R) [notice] Content URL: http://cnet-web.consulnet.net/FlexJobs/wp-content
+0000.491 (R) [notice] Uploads URL: http://cnet-web.consulnet.net/FlexJobs/wp-content/uploads
+0000.491 (R) [notice] Old table prefix: fjb_
+0000.492 (R) [notice] Site information: multisite = 0
+0000.492 (R) [notice] Site information: sql_mode = NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.498 (R) [notice] New table prefix: r0_
+0000.508 (R) [notice] Processing table (InnoDB):  fjb_options - will restore as: r0_options
+0000.794 (R) [notice] Atomic restore: dropping original table (wp_options)
+0000.812 (R) [notice] Atomic restore: renaming new table (r0_options) to final table name (wp_options)
+0001.785 (R) [notice] Table prefix has changed: changing option table field(s) accordingly: OK
+0001.790 (R) [notice] Elegant themes theme builder plugin data detected: resetting temporary folder
+0001.809 (R) [notice] Processing table (InnoDB):  fjb_users - will restore as: r0_users
+0001.863 (R) [notice] Atomic restore: dropping original table (wp_users)
+0001.879 (R) [notice] Atomic restore: renaming new table (r0_users) to final table name (wp_users)
+0001.899 (R) [notice] Processing table (InnoDB):  fjb_usermeta - will restore as: r0_usermeta
+0001.941 (R) [notice] Atomic restore: dropping original table (wp_usermeta)
+0001.958 (R) [notice] Atomic restore: renaming new table (r0_usermeta) to final table name (wp_usermeta)
+0001.981 (R) [notice] Table prefix has changed: changing usermeta table field(s) accordingly: OK
+0001.982 (R) [notice] Processing table (InnoDB):  fjb_actionscheduler_actions - will restore as: r0_actionscheduler_actions
+0002.111 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_actions)
+0002.112 (R) [notice] Atomic restore: renaming new table (r0_actionscheduler_actions) to final table name (wp_actionscheduler_actions)
+0002.138 (R) [notice] Processing table (InnoDB):  fjb_actionscheduler_claims - will restore as: r0_actionscheduler_claims
+0002.177 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_claims)
+0002.178 (R) [notice] Atomic restore: renaming new table (r0_actionscheduler_claims) to final table name (wp_actionscheduler_claims)
+0002.203 (R) [notice] Processing table (InnoDB):  fjb_actionscheduler_groups - will restore as: r0_actionscheduler_groups
+0002.252 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_groups)
+0002.254 (R) [notice] Atomic restore: renaming new table (r0_actionscheduler_groups) to final table name (wp_actionscheduler_groups)
+0002.275 (R) [notice] Processing table (InnoDB):  fjb_actionscheduler_logs - will restore as: r0_actionscheduler_logs
+0002.339 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_logs)
+0002.341 (R) [notice] Atomic restore: renaming new table (r0_actionscheduler_logs) to final table name (wp_actionscheduler_logs)
+0002.365 (R) [notice] Processing table (InnoDB):  fjb_commentmeta - will restore as: r0_commentmeta
+0002.409 (R) [notice] Atomic restore: dropping original table (wp_commentmeta)
+0002.429 (R) [notice] Atomic restore: renaming new table (r0_commentmeta) to final table name (wp_commentmeta)
+0002.459 (R) [notice] Processing table (InnoDB):  fjb_comments - will restore as: r0_comments
+0002.523 (R) [notice] Atomic restore: dropping original table (wp_comments)
+0002.544 (R) [notice] Atomic restore: renaming new table (r0_comments) to final table name (wp_comments)
+0002.566 (R) [notice] Processing table (InnoDB):  fjb_links - will restore as: r0_links
+0002.609 (R) [notice] Atomic restore: dropping original table (wp_links)
+0002.629 (R) [notice] Atomic restore: renaming new table (r0_links) to final table name (wp_links)
+0002.661 (R) [notice] Processing table (InnoDB):  fjb_postmeta - will restore as: r0_postmeta
+0003.108 (R) [notice] Atomic restore: dropping original table (wp_postmeta)
+0003.186 (R) [notice] Atomic restore: renaming new table (r0_postmeta) to final table name (wp_postmeta)
+0003.251 (R) [notice] Processing table (InnoDB):  fjb_posts - will restore as: r0_posts
+0004.049 (R) [notice] Database queries processed: 50 in 3.81 seconds
+0004.971 (R) [notice] Atomic restore: dropping original table (wp_posts)
+0005.009 (R) [notice] Atomic restore: renaming new table (r0_posts) to final table name (wp_posts)
+0005.038 (R) [notice] Processing table (InnoDB):  fjb_term_relationships - will restore as: r0_term_relationships
+0005.102 (R) [notice] Atomic restore: dropping original table (wp_term_relationships)
+0005.125 (R) [notice] Atomic restore: renaming new table (r0_term_relationships) to final table name (wp_term_relationships)
+0005.150 (R) [notice] Processing table (InnoDB):  fjb_term_taxonomy - will restore as: r0_term_taxonomy
+0005.212 (R) [notice] Atomic restore: dropping original table (wp_term_taxonomy)
+0005.233 (R) [notice] Atomic restore: renaming new table (r0_term_taxonomy) to final table name (wp_term_taxonomy)
+0005.255 (R) [notice] Processing table (InnoDB):  fjb_termmeta - will restore as: r0_termmeta
+0005.308 (R) [notice] Atomic restore: dropping original table (wp_termmeta)
+0005.327 (R) [notice] Atomic restore: renaming new table (r0_termmeta) to final table name (wp_termmeta)
+0005.354 (R) [notice] Processing table (InnoDB):  fjb_terms - will restore as: r0_terms
+0005.408 (R) [notice] Atomic restore: dropping original table (wp_terms)
+0005.426 (R) [notice] Atomic restore: renaming new table (r0_terms) to final table name (wp_terms)
+0005.454 (R) [notice] Processing table (InnoDB):  fjb_aiowps_events - will restore as: r0_aiowps_events
+0005.491 (R) [notice] Atomic restore: dropping original table (wp_aiowps_events)
+0005.492 (R) [notice] Atomic restore: renaming new table (r0_aiowps_events) to final table name (wp_aiowps_events)
+0005.517 (R) [notice] Processing table (InnoDB):  fjb_aiowps_failed_logins - will restore as: r0_aiowps_failed_logins
+0005.557 (R) [notice] Atomic restore: dropping original table (wp_aiowps_failed_logins)
+0005.558 (R) [notice] Atomic restore: renaming new table (r0_aiowps_failed_logins) to final table name (wp_aiowps_failed_logins)
+0005.584 (R) [notice] Processing table (InnoDB):  fjb_aiowps_global_meta - will restore as: r0_aiowps_global_meta
+0005.624 (R) [notice] Atomic restore: dropping original table (wp_aiowps_global_meta)
+0005.625 (R) [notice] Atomic restore: renaming new table (r0_aiowps_global_meta) to final table name (wp_aiowps_global_meta)
+0005.650 (R) [notice] Processing table (InnoDB):  fjb_aiowps_login_activity - will restore as: r0_aiowps_login_activity
+0005.687 (R) [notice] Atomic restore: dropping original table (wp_aiowps_login_activity)
+0005.689 (R) [notice] Atomic restore: renaming new table (r0_aiowps_login_activity) to final table name (wp_aiowps_login_activity)
+0005.712 (R) [notice] Processing table (InnoDB):  fjb_aiowps_login_lockdown - will restore as: r0_aiowps_login_lockdown
+0005.749 (R) [notice] Atomic restore: dropping original table (wp_aiowps_login_lockdown)
+0005.751 (R) [notice] Atomic restore: renaming new table (r0_aiowps_login_lockdown) to final table name (wp_aiowps_login_lockdown)
+0005.774 (R) [notice] Processing table (InnoDB):  fjb_aiowps_permanent_block - will restore as: r0_aiowps_permanent_block
+0005.805 (R) [notice] Atomic restore: dropping original table (wp_aiowps_permanent_block)
+0005.807 (R) [notice] Atomic restore: renaming new table (r0_aiowps_permanent_block) to final table name (wp_aiowps_permanent_block)
+0005.829 (R) [notice] Processing table (InnoDB):  fjb_smush_dir_images - will restore as: r0_smush_dir_images
+0005.881 (R) [notice] Atomic restore: dropping original table (wp_smush_dir_images)
+0005.882 (R) [notice] Atomic restore: renaming new table (r0_smush_dir_images) to final table name (wp_smush_dir_images)
+0006.001 (R) [notice] Processing table (InnoDB):  fjb_wpfm_backup - will restore as: r0_wpfm_backup
+0006.090 (R) [notice] Atomic restore: dropping original table (wp_wpfm_backup)
+0006.092 (R) [notice] Atomic restore: renaming new table (r0_wpfm_backup) to final table name (wp_wpfm_backup)
+0006.119 (R) [notice] Processing table (InnoDB):  fjb_wpforms_tasks_meta - will restore as: r0_wpforms_tasks_meta
+0006.172 (R) [notice] Atomic restore: dropping original table (wp_wpforms_tasks_meta)
+0006.174 (R) [notice] Atomic restore: renaming new table (r0_wpforms_tasks_meta) to final table name (wp_wpforms_tasks_meta)
+0006.199 (R) [notice] Processing table (InnoDB):  fjb_wpmailsmtp_tasks_meta - will restore as: r0_wpmailsmtp_tasks_meta
+0006.255 (R) [notice] Atomic restore: dropping original table (wp_wpmailsmtp_tasks_meta)
+0006.256 (R) [notice] Atomic restore: renaming new table (r0_wpmailsmtp_tasks_meta) to final table name (wp_wpmailsmtp_tasks_meta)
+0006.277 (R) [notice] Processing table (InnoDB):  fjb_wsal_metadata - will restore as: r0_wsal_metadata
+0006.533 (R) [notice] Atomic restore: dropping original table (wp_wsal_metadata)
+0006.534 (R) [notice] Atomic restore: renaming new table (r0_wsal_metadata) to final table name (wp_wsal_metadata)
+0006.557 (R) [notice] Processing table (InnoDB):  fjb_wsal_occurrences - will restore as: r0_wsal_occurrences
+0006.617 (R) [notice] Atomic restore: dropping original table (wp_wsal_occurrences)
+0006.618 (R) [notice] Atomic restore: renaming new table (r0_wsal_occurrences) to final table name (wp_wsal_occurrences)
+0006.637 (R) [notice] Processing table (InnoDB):  fjb_yoast_indexable - will restore as: r0_yoast_indexable
+0006.754 (R) [notice] Database queries processed: 100 in 6.51 seconds
+0006.764 (R) [notice] Atomic restore: dropping original table (wp_yoast_indexable)
+0006.765 (R) [notice] Atomic restore: renaming new table (r0_yoast_indexable) to final table name (wp_yoast_indexable)
+0006.788 (R) [notice] Processing table (InnoDB):  fjb_yoast_indexable_hierarchy - will restore as: r0_yoast_indexable_hierarchy
+0006.846 (R) [notice] Atomic restore: dropping original table (wp_yoast_indexable_hierarchy)
+0006.847 (R) [notice] Atomic restore: renaming new table (r0_yoast_indexable_hierarchy) to final table name (wp_yoast_indexable_hierarchy)
+0006.867 (R) [notice] Processing table (InnoDB):  fjb_yoast_migrations - will restore as: r0_yoast_migrations
+0006.918 (R) [notice] Atomic restore: dropping original table (wp_yoast_migrations)
+0006.919 (R) [notice] Atomic restore: renaming new table (r0_yoast_migrations) to final table name (wp_yoast_migrations)
+0006.936 (R) [notice] Processing table (InnoDB):  fjb_yoast_primary_term - will restore as: r0_yoast_primary_term
+0006.977 (R) [notice] Atomic restore: dropping original table (wp_yoast_primary_term)
+0006.978 (R) [notice] Atomic restore: renaming new table (r0_yoast_primary_term) to final table name (wp_yoast_primary_term)
+0007.003 (R) [notice] Processing table (InnoDB):  fjb_yoast_seo_links - will restore as: r0_yoast_seo_links
+0011.140 (R) [notice] Disabling Maintenance mode&#8230;
+0011.141 (R) [notice] Atomic restore: dropping original table (wp_yoast_seo_links)
+0011.143 (R) [notice] Atomic restore: renaming new table (r0_yoast_seo_links) to final table name (wp_yoast_seo_links)
+0011.179 (R) [notice] Finished: lines processed: 114 in 10.94 seconds
+0011.182 (R) [notice] Cleaning up rubbish...
+0011.281 (R) [notice] Unpacking backup... (backup_2021-06-19-2213_FlexJobs_2a4ab3e66c3d-plugins.zip, 34.5 MB)
+0013.225 (R) [notice] Unzip progress: 1243 out of 8279 files (1 KB, plugins/wpforms-lite/templates/integrations/elementor/no-forms.php)
+0014.971 (R) [notice] Unzip progress: 2244 out of 8279 files (17.3 MB, plugins/wp-file-manager/lib/js/commands/sort.js)
+0017.037 (R) [notice] Unzip progress: 3245 out of 8279 files (32.1 MB, plugins/wp-smushit/_src/js/shared-ui.js)
+0019.007 (R) [notice] Unzip progress: 4246 out of 8279 files (44.8 MB, plugins/wp-mail-smtp/vendor_prefixed/monolog/monolog/src/Monolog/Formatter/JsonFormatter.php)
+0020.953 (R) [notice] Unzip progress: 5247 out of 8279 files (53.7 MB, plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/ClosureCommand.php)
+0022.822 (R) [notice] Unzip progress: 6248 out of 8279 files (74.1 MB, plugins/wp-security-audit-log/third-party/freemius/wordpress-sdk/templates/plugin-info/features.php)
+0024.780 (R) [notice] Unzip progress: 7249 out of 8279 files (88.2 MB, plugins/wordpress-seo/src/schema-templates/step.schema.php)
+0026.691 (R) [notice] Unzip progress: 8250 out of 8279 files (98 MB, plugins/contact-form-7/includes/special-mail-tags.php)
+0026.753 (R) [notice] Unzip progress: 8279 out of 8279 files (98.1 MB, plugins/contact-form-7/languages/readme.txt)
+0026.783 (R) [notice] Moving old data out of the way...
+0027.551 (R) [notice] Moving unpacked backup into place...
+0031.018 (R) [notice] Cleaning up rubbish...
+0031.046 (R) [notice] Unpacking backup... (backup_2021-06-19-2213_FlexJobs_2a4ab3e66c3d-themes.zip, 13.8 MB)
+0032.911 (R) [notice] Unzip progress: 1002 out of 1511 files (15 MB, themes/Divi/includes/builder/frontend-builder/assets/vendors/plugins/help/img/logo.png)
+0034.295 (R) [notice] Unzip progress: 1511 out of 1511 files (42.1 MB, themes/Divichild/archive-joboard.php)
+0034.341 (R) [notice] Moving old data out of the way...
+0034.613 (R) [notice] Moving unpacked backup into place...
+0035.227 (R) [notice] Cleaning up rubbish...
+0035.254 (R) [notice] Unpacking backup... (backup_2021-06-19-2213_FlexJobs_2a4ab3e66c3d-uploads.zip, 13.6 MB)
+0035.971 (R) [notice] Unzip progress: 391 out of 391 files (13.6 MB, uploads/wp-file-manager-pro/fm_backup/index.html)
+0035.981 (R) [notice] Moving old data out of the way...
+0035.990 (R) [notice] Moving unpacked backup into place...
+0036.130 (R) [notice] Cleaning up rubbish...
+0036.144 (R) [notice] Unpacking backup... (backup_2021-06-19-2213_FlexJobs_2a4ab3e66c3d-others.zip, 2 MB)
+0036.254 (R) [notice] Unzip progress: 16 out of 16 files (10.1 MB, et-cache/image_srcset_sizes.data)
+0036.271 (R) [notice] Cleaning up rubbish...
+0036.464 (R) [notice] Restore successful!

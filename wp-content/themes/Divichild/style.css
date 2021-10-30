@@ -1,0 +1,329 @@
+/*
+ Theme Name:   Divichild
+ Description:  Divi Child Theme
+ Author:       Asma
+ Template:     Divi
+ Version:      1.0.0
+ Text Domain:  Divichild
+*/
+#et_top_search { 
+	display:none;
+}
+a.icon:hover
+{ 
+      backgroun-color: #5bbc2e;
+}
+
+#post-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.wrapper{
+       max-width:1280px;
+       width: 100%;
+   	   margin:auto;
+}
+
+.container {
+    margin: 0 0;
+}
+
+.wpcf7 {
+     background: #c2c2c2;
+   	max-width: 500px;
+     padding: 20px 20px 20px 50px !important;
+     margin:auto;
+     margin-bottom:50px;
+ }
+ .wpcf7 input[type="text"],
+ .wpcf7 input[type="email"],
+ .wpcf7 input[type="tel"],
+ textarea {
+     font-size: 16px;
+     background-color: #f5f5f5;
+     border: none;
+     width: 90%;
+     padding: 2%;
+ }
+ .wpcf7 input[type="submit"] {
+     color: #ffffff;
+     font-size: 18px;
+     font-weight: 700;
+     background: #616161;
+     padding: 15px 25px 15px 25px;
+     border: none;
+     border-radius: 5px;
+     width: auto;
+     text-transform: uppercase;
+     letter-spacing: 5px;
+ }
+ .wpcf7 input:hover[type="submit"] {
+     background: #494949;
+     transition: all 0.4s ease 0s;
+ }
+ .wpcf7 input:active[type="submit"] {
+     background: #000000;
+ }
+ input[type="checkbox"] {
+    transform: scale(1.3);
+    margin-left: 5px;
+}
+.et-pb-arrow-next:before {
+color:#7CDA24;
+}
+.et-pb-arrow-prev:before {
+color:#7CDA24;
+}
+.main-container{
+ width: 1280px;
+    max-width: 100%;
+    margin: auto;
+    background-color: #993333;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.job-row{
+     display:flex;
+	flex-wrap:wrap;
+    justify-content:center
+}
+.job-item{
+	width:235px;
+    margin: 10px;
+    float: left;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    }
+
+a.button {
+    background-color: green;
+    padding: 10px 30px;
+    color: #fff;
+    font-weight: 800;
+}
+li.about-tab {
+    padding: 10px;
+    display: inline-block;
+}
+
+.job-name {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    ext-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+h2{
+font-size:22px;
+}
+.et_pb_menu_0_tb_header .mobile_nav .mobile_menu_bar:before {
+   color:#ffffff;
+}
+.job-btn {
+    background-color: #5bbc2e;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    margin: auto;
+    margin-top: -17px;
+    width: 50%;
+    color: #fff;
+    position: relative;
+    z-index: 9; 
+    justify-content: center;
+    align-content: center;
+}
+.visibility{
+margin:20px;
+}
+.visibility a{
+color:#5bbc2e;
+}
+
+.et_post_meta_wrapper.et-fb-root-ancestor-sibling {
+    text-align: center;
+}
+.jobs_category{
+margin-bottom:20px;
+margin-top:20px;
+}
+.job-name a{
+color:#000000;
+}
+.job-btn a{
+color:#ffffff;
+}
+.sub-menu{
+margin-top:38px;
+}
+.et-search-form, .nav li ul, .et_mobile_menu, .footer-widget li:before, .et_pb_pricing li:before, blockquote {
+    border-color: #5bbc2e;
+ }
+ /*Jobv List*/
+ .jobs-row{max-width: 1024px;margin: auto;}
+ .job-wrap {
+    display: flex;
+    margin: 2% 0;
+    justify-content: space-between;
+}
+.job-img {
+    margin-right: 2%;
+}
+.wpcf7 p{ position: relative; }
+.wpcf7 p .fa{
+  position: absolute;
+  color: #666666;
+  z-index: 100;
+  font-size: 18px;
+  top: 28%;
+  left: 1.5%;
+}
+.wpcf7 p .fa-pencil{ top: 5%; left: 1.5%}
+.wpcf7 .wpcf7-text,
+.wpcf7 .wpcf7-textarea{
+  text-indent: 35px;
+}
+.job_title{
+	padding: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 40px;
+	text-align: center;
+}
+.details_job_h2{
+	margin-top:20px;
+}
+.job_skills{
+padding:30px;
+}
+.read_btn{
+	color:#5bbc2e;
+    margin-left:20px;
+}
+.job_tax{
+	font-size: 30px;
+    margin: auto;
+    margin-top: 40px;
+    color: #5bbc2e;
+    font-weight: 700;
+}
+.jobtitle{
+	font-size: 30px;
+    font-weight: 600;
+  	text-align: center;
+    text-decoration: underline;
+}
+
+.job_req{
+	margin-top:15px;
+    padding:20px;
+}
+.job-image{
+	margin-right:0;
+}
+.search_head{
+	text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    text-decoration: underline;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Montez',handwriting;
+}
+.alert > p {
+	font-size: 20px;
+    color: grey;
+    text-align: center;
+    padding: 20px;
+}
+.alert{
+	padding:40px;
+}
+.searchform{
+	text-align: center;
+    padding: 30px;
+}
+#s{
+    border: 1px solid green;
+    border-radius: 5px;
+    height: 36px;
+   	padding: 2px 23px 2px 30px;
+    outline: 0;
+}
+#searchsubmit{
+	background: #5bbc2e;
+    border: 1px solid green;
+    border-radius: 5px;
+    height: 36px;
+    padding: 2px 23px 2px 30px;
+    outline: 0;
+    font-size: 20px;
+    color: #fff;
+}
+.line_text{
+    font-family: 'Raleway';
+    font-size: 2vw;
+    line-height: 1.8em;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    color:grey;
+}
+.page-title{
+	font-size: 24vw;
+    font-family: 'Monoton';
+    text-align: center;
+    padding: 5%;
+}
+.btn_center{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.btn_btn{
+	display: inline-block;
+    background-color: #49444d;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 28px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+ }
+ .btn_btn a{
+ 	    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+ }
+.article{
+ 	margin: auto;
+    width: 1280px;
+ }
+ .et_pb_social_media_follow li {
+    display: inline-block;
+    margin-bottom: 8px;
+    position: relative;
+    margin-right: 25px;
+}
+.details_job{
+	padding: 20px;
+}
+.job_des{
+padding:20px;
+}
+.jobs-area{
+padding:20px;
+}
